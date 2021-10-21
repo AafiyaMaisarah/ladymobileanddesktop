@@ -1,0 +1,208 @@
+*{
+    box-sizing: border-box;
+    margin:0;
+    padding:0;
+}
+/* mobile */
+.back{
+    background-image: url(back.jfif);
+    width:100%
+}
+.box1{
+    
+    
+    margin:0px;
+    padding:0px;
+     position:absolute;
+     left:0px;
+
+}
+.box2{
+    margin:5px;
+    padding:5px;
+   position: absolute;
+   left:-10px;
+   top:30px;
+   width:100px;
+   height:10px;
+
+    
+}
+.we{
+    color:#F5B7B1 ;
+font-family: 'Gowun Dodum', sans-serif;
+    /* font-weight: 200; */
+    font-size: 30PX;
+    position: absolute;
+    left: 90px;
+    top:300px;
+}
+.COMING{
+    color: #1C2833 ;
+    font-family: 'Josefin Sans', sans-serif;
+    
+    font-size: 35PX;
+    position:absolute;
+    left:70px;
+    top:340px;
+}
+.space{
+    position: absolute;
+    left:30px;
+}
+.hello{
+    color:#F5B7B1 ;
+ position:absolute;
+top:400px;
+bottom: 4%;
+left:20px;
+margin: 10px;
+padding:10px;
+font-size: 15px; 
+
+font-family: 'Cormorant Garamond', serif;
+
+}
+#email{
+    position:absolute;
+    top:480px;
+    left:30px;
+    border:2px solid #F5B7B1;
+    border-radius:50px ;
+    width:70vw;
+    height:1vh;
+ margin:20px;
+ padding:20px;
+}
+#email::placeholder{
+    color:#F5B7B1;
+}
+
+.box{
+    background-color:#eb9a93 ;
+    width:80px;
+    height:40px;
+    border-radius:50px;
+    position:absolute;
+    top:502px;
+    left:200px;
+}
+.txt{
+    color:white;
+    text-align: center;
+    font-size: 20px;
+    position: absolute;
+    top:10px;
+    left:25px;
+}
+@media screen and (min-width:600px){
+    .back.box1,.box2,.box,.we,.font,.COMING,.hello,.txt,#email{
+        display: none;
+
+     }
+    }
+
+  @media screen and (max-width:600px){
+      .dback ,.dspace,.dCOMING,.dfont,.dhello,.dtxt,.dwe,.dfont,.clear,#demail{
+           display: none;
+       } 
+    }
+
+        /* desktop */
+
+        .dback{
+        width:500px;
+       height:500px;
+       margin:50px;
+       padding:50px;
+       background-image: url(back.jfif);
+    float:left;
+     
+     }
+
+
+    
+    .dfont{
+        margin:2px;
+        padding:5px;
+        position: absolute;
+        left:50px;
+        top:40px;
+    }
+.dwe{
+    color:#F5B7B1 ;
+font-family: 'Gowun Dodum', sans-serif;
+font-size: 30px;
+position:absolute;
+left:150px;
+top:150px;
+}
+.dCOMING{
+    color: #1C2833 ;
+    font-family: 'Josefin Sans', sans-serif;
+    
+    font-size: 35PX;
+    position:absolute;
+    left:120px;
+    top:200px;
+}
+
+.dhello{
+    color:#F5B7B1 ;
+ position:absolute;
+top:300px;
+bottom: 4%;
+left:60px;
+margin: 5px;
+padding:5px;
+font-size: 20px; 
+
+font-family: 'Cormorant Garamond', serif;
+display: inline-block;
+}
+#demail{
+    position:absolute;
+    top:400px;
+    left:70px;
+    border:2px solid #F5B7B1;
+    border-radius:50px ;
+    width:25vw;
+    height:1vh;
+ margin:20px;
+ padding:20px;
+}
+#demail::placeholder{
+    color:#F5B7B1;
+}
+
+.dbox{
+    background-color:#eb9a93 ;
+    width:80px;
+    height:40px;
+    border-radius:50px;
+    position:absolute;
+    top:422px;
+    left:350px;
+}
+.dtxt{
+    color:white;
+    text-align: center;
+    font-size: 20px;
+    position: absolute;
+    top:9px;
+    left:30px;
+} 
+.dbox6{
+ 
+    width:500px;
+   height:33vh;
+   float:right;
+   
+   
+
+}
+
+.clear{
+    clear:both;
+}
+
